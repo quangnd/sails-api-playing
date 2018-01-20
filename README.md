@@ -21,3 +21,9 @@ A only API project for learning to write API with Sails.js (v0.12.4)
   - 4. Point to new connection and use in Models at `config/models.js`
   - 5. Define models file with attributes then run `sails lift`, the new tables will be created in MySQL DB.
 - Use [sails-seed](https://github.com/frostme/sails-seed) to seed data.
+- Fix gitignore is [not working](http://blog.jonathanchannon.com/2012/11/18/gitignore-not-working-fixed/)
+```bash
+git rm -r --cached .
+git add .
+git commit -m ".gitignore is now working"
+```
