@@ -1,5 +1,5 @@
 /**
- * Province.js
+ * District.js
  *
  * @description :: TODO: You might write a short summary of how this model works and what it represents here.
  * @docs        :: http://sailsjs.org/documentation/concepts/models-and-orm/models
@@ -14,14 +14,10 @@ module.exports = {
     note: {
       type: 'string'
     },
-    isActive: {
-      type: 'boolean'
-    },
 
-    //Add a reference to district
-    districts: {
-      collection: 'district',
-      via: 'province'
+    // Add a reference to province
+    province: {
+      model: 'province'
     }
   }
 };
