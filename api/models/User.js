@@ -20,6 +20,11 @@ module.exports = {
       minLength: 6,
       required: true
     },
+    gender: {
+      type: 'string',
+      enum: ['male', 'female'],
+      defaultTo: 'male'
+    },
 
     //Add reference to pet
     pets: {
