@@ -10,10 +10,12 @@ module.exports = {
   // A user may have many pets
   attributes: {
     firstName: {
-      type: 'string'
+      type: 'string',
+      required: true
     },
     lastName: {
-      type: 'string'
+      type: 'string',
+      required: true
     },
     password: {
       type: 'string',
@@ -31,8 +33,14 @@ module.exports = {
       collection: 'pet',
       via: 'owners',
       dominant: true
-    }
+    },
+
+    // Attribute methods
+    getFullName: function (){
+      return this.firstName + ' ' + this.lastName;
+    },
   },
+
 
   // Lifecycle Callbacks
   beforeCreate: function(values, cb) {
