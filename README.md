@@ -10,6 +10,8 @@ A only API project for learning to write API with Sails.js (v0.12.4)
 - [ ] Master route.
 - [ ] Master policies.
 - [ ] Master controller.
+- [ ] Try with Hybrid Web App (Using frontend and backend in the same project).
+- [ ] Try with Seperate projects, one using Sails for API, one using AngularJS or ReactJS.
 
 ## Note (need to remember)
 
@@ -21,6 +23,11 @@ A only API project for learning to write API with Sails.js (v0.12.4)
   - 4. Point to new connection and use in Models at `config/models.js`
   - 5. Define models file with attributes then run `sails lift`, the new tables will be created in MySQL DB.
 - Use [sails-seed](https://github.com/frostme/sails-seed) to seed data.
+
+## Useful links
+
+- [Build-a-todo-app-using-sailsjs-and-angularjs](https://scotch.io/tutorials/build-a-todo-app-using-sailsjs-and-angularjs)
+- [Sails101 Tutorials](https://github.com/sails101)
 - Fix gitignore is [not working](http://blog.jonathanchannon.com/2012/11/18/gitignore-not-working-fixed/)
 ```bash
 git rm -r --cached .
