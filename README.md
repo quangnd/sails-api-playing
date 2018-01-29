@@ -1,4 +1,6 @@
-# sails-api-playing
+<h1>
+<a href="http://sailsjs.com"><img alt="Sails.js logo" src="http://balderdashy.github.io/sails/images/logo.png" title="Sails.js"/></a>
+</h1>
 
 A only API project for learning to write API with Sails.js (v0.12.4)
 
